@@ -1,0 +1,26 @@
+{
+  "name": "hackmit2025-hello-world",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "tsc",
+    "start": "bun run dist/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.62.0",
+    "@mentra/sdk": "^2.1.22",
+    "axios": "^1.12.1",
+    "cheerio": "^1.1.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.21",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.3",
+    "typescript": "^5.9.2"
+  }
+}
